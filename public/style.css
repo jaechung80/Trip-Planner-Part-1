@@ -29,3 +29,34 @@ body {
 .restaurant {
   background-image: url('http://i.imgur.com/cqR6pUI.png');
 } */
+
+#outer-container {
+  display: flex;
+  flex-direction: column;
+}
+
+#navbar {
+  flex-basis: 75px;
+  background-color: rgb(255, 208, 0);
+}
+
+#map-user-container {
+  display: flex;
+}
+
+#user-interface {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 400px;
+  justify-content: space-between;
+}
+
+#selection {
+  background-color: red;
+  flex-basis: 300px;
+}
+
+#itinerary-section {
+  flex-basis: 300px;
+  background-color: blue;
+}
